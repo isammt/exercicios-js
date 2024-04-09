@@ -1,5 +1,5 @@
 function limitaPosicao(posicao) {
-  if (limitaPosicao < 0) {
+  if (posicao < 0) {
     return 0;
   } else if (posicao > 100) {
     return 100;
