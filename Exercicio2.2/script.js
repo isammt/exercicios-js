@@ -1,5 +1,5 @@
 function personagemMorreu(dano, saude) {
-  if (dano - saude <= 0) {
+  if (saude - dano <= 0) {
     return 1;
   } else {
     return 0;
